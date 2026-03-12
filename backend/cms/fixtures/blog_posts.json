@@ -1,0 +1,44 @@
+[
+  {
+    "model": "cms.blogpost",
+    "pk": 1,
+    "fields": {
+      "title": "Getting started with the Django–Next.js CMS",
+      "slug": "getting-started-django-nextjs-cms",
+      "excerpt": "A quick tour of the demo CMS stack, how the backend and frontend fit together, and what you can safely tweak while developing locally.",
+      "content": "When you spin up this project locally you get a fully wired Django REST API and a Next.js frontend out of the box.\n\nThe Django backend exposes a small, read-only CMS API for pages and blog posts. The Next.js frontend consumes that API and focuses purely on layout, styling, and client-side interactions.\n\nIn development you can freely change templates, tweak typography, and experiment with components without worrying about breaking real content. These sample blog posts exist purely to give you realistic text, headings, and long-form content to design against.\n\nOnce you are happy with the look and feel, you can point the frontend at a real backend environment and replace this seed data with actual content.",
+      "featured_image": null,
+      "is_published": true,
+      "created_at": "2024-01-10T09:00:00Z",
+      "updated_at": "2024-01-10T09:00:00Z"
+    }
+  },
+  {
+    "model": "cms.blogpost",
+    "pk": 2,
+    "fields": {
+      "title": "Designing a blog layout with real content",
+      "slug": "designing-blog-layout-real-content",
+      "excerpt": "Why placeholder lorem ipsum is not enough when you are testing responsive blog layouts, and how this demo content can help.",
+      "content": "It is tempting to design a blog using a few lines of lorem ipsum, but real layouts rarely behave that nicely. Headlines wrap onto multiple lines, excerpts vary wildly in length, and long-form content often mixes short and long paragraphs.\n\nThis sample post is written to mimic that behaviour. The opening paragraph is intentionally longer so you can see how it affects spacing in list views. The following paragraphs are shorter and easier to scan, which is closer to what you might see in a real article.\n\nAs you adjust font sizes, line heights, and breakpoints, keep an eye on how these paragraphs reflow. Pay special attention to the gap between the excerpt and the body content on the detail page, as well as the vertical rhythm between posts on the index view.",
+      "featured_image": null,
+      "is_published": true,
+      "created_at": "2024-01-15T14:30:00Z",
+      "updated_at": "2024-01-15T14:30:00Z"
+    }
+  },
+  {
+    "model": "cms.blogpost",
+    "pk": 3,
+    "fields": {
+      "title": "From local prototype to production-ready CMS",
+      "slug": "from-local-prototype-to-production-ready-cms",
+      "excerpt": "Steps you might take to turn this local demo into a production-ready content platform backed by Django and served through a modern Next.js frontend.",
+      "content": "This repository is intentionally small so you can understand each moving part. However, the same patterns scale to a more serious CMS. On the backend you might introduce user authentication, draft states, and richer content fields such as tags or categories.\n\nOn the frontend, you can layer in features like client-side search, pagination, and image optimisations. The key is that your components should not care where the data comes from, only about the shape of the API responses.\n\nUse this post to test how your layout behaves with longer titles, deeper content, and subtle hierarchy changes such as subheadings, pull quotes, or callout boxes that you may add later.",
+      "featured_image": null,
+      "is_published": true,
+      "created_at": "2024-01-20T08:15:00Z",
+      "updated_at": "2024-01-20T08:15:00Z"
+    }
+  }
+]

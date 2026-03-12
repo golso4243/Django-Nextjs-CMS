@@ -1,0 +1,42 @@
+############################################
+# Django backend .gitignore (backend/)
+############################################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (local to backend)
+.venv/
+venv/
+env/
+
+# Django / Python logs
+*.log
+
+# Local settings and environment
+.env
+.env.local
+.env.*.local
+local_settings.py
+
+# SQLite database (local dev only)
+db.sqlite3
+
+# Static and media output (generated)
+staticfiles/
+media/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test / coverage artifacts
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+

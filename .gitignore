@@ -1,0 +1,89 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+backend/.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+# Root env files (if any)
+.env
+.env.local
+.env.*.local
+
+# Backend env files
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+/.cursor/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Django
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+*.log
+local_settings.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+frontend/coverage/
+
+# Misc
+*.bak
+
+# Documentation
+documentation/
+
+# Build
+build/
+dist/
+
+# Coverage
+coverage/
+
+# Logs
+logs/
